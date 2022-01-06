@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ section {
 .flexible-container {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -73,8 +73,8 @@ h1 {
   margin-bottom: 50px;
 }
 
-.card p {
-  font-size: 13px;
+.card p,
+h3 {
   margin: 5px 0;
 }
 
