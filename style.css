@@ -47,9 +47,10 @@ h1 {
 }
 
 .outline {
-  border-left: 3px solid;
+  border-left: solid;
   border-image: linear-gradient(salmon, tomato);
   border-image-slice: 1;
+  border-image-width: 1;
   padding-left: 10px;
   margin-top: 175px;
 }
