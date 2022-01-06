@@ -1,0 +1,103 @@
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Common Part */
+
+.main-body {
+  width: 80%;
+  margin: 0 auto;
+  /* outline: 1px solid black; */
+}
+
+section {
+  width: 100%;
+  margin-bottom: 100px;
+  /* outline: 1px solid green; */
+}
+
+.flexible-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.half-60 {
+  width: 60%;
+}
+
+.half-40 {
+  width: 40%;
+}
+
+.half-40 img {
+  width: 80%;
+}
+
+/* First Part */
+.golden-font {
+  color: goldenrod;
+}
+
+.outline {
+  border-left: 5px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+  padding-left: 10px;
+  margin-top: 150px;
+  /* outline: 1px solid black; */
+}
+
+.first-part p {
+  padding-right: 40%;
+}
+
+.link-btn {
+  display: inline-block;
+  background-color: salmon;
+  color: white;
+  padding: 10px 30px;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+/* Second Part */
+.second-part h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card h3,
+p {
+  margin: 5px 0;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  padding: 2%;
+  background-color: rgba(250, 128, 114, 0.212);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px gray;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+/* Fourth Part */
+.fourth-part .half-40 img {
+  float: right;
+}
+
+footer {
+  text-align: center;
+}
