@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   color: black;
+  list-style: none;
 }
 
 /* Common Part */
@@ -12,13 +13,11 @@
   width: 80%;
   margin: 0 auto;
   text-align: justify;
-  /* outline: 1px solid black; */
 }
 
 section {
   width: 100%;
   margin-bottom: 100px;
-  /* outline: 1px solid green; */
 }
 
 .flexible-container {
@@ -48,12 +47,11 @@ h1 {
 }
 
 .outline {
-  border-left: 5px solid;
+  border-left: 3px solid;
   border-image: linear-gradient(salmon, tomato);
   border-image-slice: 1;
   padding-left: 10px;
   margin-top: 150px;
-  /* outline: 1px solid black; */
 }
 
 .first-part p {
@@ -81,10 +79,10 @@ p {
 }
 
 .card {
-  width: 25%;
+  width: 29%;
   padding: 2%;
   border-radius: 15px;
-  box-shadow: 10px 16px 20px gray;
+  /* box-shadow: 10px 16px 20px gray; */
 }
 
 .card img {
@@ -107,8 +105,26 @@ p {
   float: right;
 }
 
+/* Contact Part */
+.contact-info {
+  margin: 100px 0;
+}
+.half-60 .contacts {
+  height: 150px;
+  padding-left: 100px;
+  border-left: 5px solid;
+  border-image: linear-gradient(salmon, #ff408c);
+  border-image-slice: 1;
+}
+
+.half-40 > h1 {
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* Footer */
 footer {
-  text-align: center !important;
+  text-align: center;
   background-color: #101010;
   padding: 50px 0;
 }
