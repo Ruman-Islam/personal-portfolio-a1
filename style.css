@@ -11,6 +11,7 @@
 .main-body {
   width: 80%;
   margin: 0 auto;
+  text-align: justify;
   /* outline: 1px solid black; */
 }
 
@@ -22,7 +23,7 @@ section {
 
 .flexible-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 h1 {
@@ -42,8 +43,8 @@ h1 {
 }
 
 /* First Part */
-.golden-font {
-  color: goldenrod;
+.pink-font {
+  color: #ff408c;
 }
 
 .outline {
@@ -61,7 +62,7 @@ h1 {
 
 .link-btn {
   display: inline-block;
-  background-color: salmon;
+  background-color: skyblue;
   color: white;
   padding: 10px 30px;
   margin: 30px 0;
@@ -80,18 +81,26 @@ p {
 }
 
 .card {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   padding: 2%;
-  background-color: rgba(250, 128, 114, 0.212);
   border-radius: 10px;
-  box-shadow: 10px 10px 20px gray;
+  box-shadow: 10px 16px 20px gray;
 }
 
 .card img {
-  width: 100px;
-  height: 100px;
-  margin: 10px 0;
+  width: 160px;
+  height: 160px;
+}
+
+.sky-background {
+  background-color: #007bff1c;
+}
+.gray-background {
+  background-color: #6c757d23;
+}
+.paste-background {
+  background-color: #17a3b82a;
 }
 
 /* Fourth Part */
@@ -100,7 +109,7 @@ p {
 }
 
 footer {
-  text-align: center;
+  text-align: center !important;
   background-color: #101010;
   padding: 50px 0;
 }
